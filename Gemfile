@@ -19,7 +19,7 @@ gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'bootstrap'
+
 gem 'figaro'
 gem 'listen', '>= 3.0.5', '< 3.2'
 gem 'jbuilder', '~> 2.5'
@@ -45,6 +45,7 @@ group :development, :test do
   gem 'faker'
   gem 'pry-rails'
 end
+gem 'bootstrap-sass', '3.2.0.2'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
