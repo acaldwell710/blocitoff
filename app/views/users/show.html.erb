@@ -10,6 +10,9 @@
     </tr>
   </thead>
   <tbody>
-  <td>example</td>
+    <%= render @items %>
   </tbody>
 </table>
+
+<p> Create a new item!</p>
+<%= render partial: 'items/form' %>
