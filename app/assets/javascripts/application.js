@@ -16,12 +16,3 @@
 //= require turbolinks
 //= require bootstrap
 //= require_tree .
-
-var blocitoff = {};
-  blocitoff.report = function(eventName){
-    var event = {event: { name: eventName}}
-    var request = new XMLHttpRequest();
-    request.open("DELETE", "http://localhost:3000/users/:user_id/items/:id", true);
-    request.setRequestHeader('Content-Type', 'application/json');
-    request.send(JSON.stringify(event));
-  };
